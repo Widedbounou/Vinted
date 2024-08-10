@@ -2,7 +2,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cloudinary = require("cloudinary").v2; // pour enregistrer les photos
-Require("dotenv").config(); // import de dotenv
+require("dotenv").config(); // import de dotenv
 const cors = require("cors"); // import de cors pour proteger les les autres sites
 
 //callback pour appeler express & cors fonction
